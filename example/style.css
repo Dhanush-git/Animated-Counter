@@ -1,0 +1,36 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.current-account--details{
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+.current-account--name{
+    font-size: 0.8rem;
+    color: #383838;
+}
+.current-account--balance{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    display: block;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+.btn-pill{
+    height: 30px;
+    flex-grow: 1;
+    border: none;
+    color: white;
+    background: black;
+    font-size: .8rem;
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 30px;
+}

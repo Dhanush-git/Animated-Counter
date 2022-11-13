@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Animated Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="current-account--details">
+        <div class="current-account--name">Value</div>
+        <div>
+            <animated-counter class="current-account--balance" id="counter" data-duration="1000" data-value="0">0</animated-counter>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn-pill" onclick="document.querySelector('#counter').setState(500)" >500</button>
+            <button class="btn-pill" onclick="document.querySelector('#counter').setState(1000)" >1000</button>
+            <button class="btn-pill" onclick="document.querySelector('#counter').setState(5000)" >5000</button>
+        </div>
+
+    </div>
+
+    <script src="../ac_v1.0.0.js"></script>
+</body>
+</html>
